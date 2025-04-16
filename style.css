@@ -1,5 +1,9 @@
 .navbar {
   background-color: rosybrown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo-img {
   height: 50px;
@@ -16,6 +20,7 @@
   align-items: center;
   gap: 0.5rem;
   width: fit-content;
+  border-radius: 0.5rem;
 }
 
 .logo:hover {
@@ -28,4 +33,19 @@
 
 .line {
   border-bottom: 50px rosybrown;
+}
+.products {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 0.2rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+}
+.products:hover {
+  background-color: bisque;
 }
