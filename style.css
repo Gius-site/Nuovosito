@@ -1,0 +1,31 @@
+.navbar {
+  background-color: rosybrown;
+}
+.logo-img {
+  height: 50px;
+}
+.logo-text {
+  color: white;
+  font-size: 1.5rem;
+}
+.logo {
+  text-decoration: none;
+  padding: 0.2rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+}
+
+.logo:hover {
+  background-color: bisque;
+}
+
+.title {
+  color: rosybrown;
+}
+
+.line {
+  border-bottom: 50px rosybrown;
+}
