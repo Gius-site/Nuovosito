@@ -4,37 +4,51 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 0 0.5rem;
 }
 .logo-img {
   height: 50px;
+  border-radius: 0.5rem;
 }
 .logo-text {
-  color: white;
   font-size: 1.5rem;
 }
 .logo {
   text-decoration: none;
-  padding: 0.2rem 1rem;
+  padding: 0.25rem 0.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 0.5rem;
   width: fit-content;
   border-radius: 0.5rem;
+  color: white;
 }
 
 .logo:hover {
   background-color: bisque;
+  color: rosybrown;
 }
 
 .title {
   color: rosybrown;
 }
+.subtitle {
+  color: burlywood;
+}
 
+.text {
+  color: rosybrown;
+}
 .line {
   border-bottom: 50px rosybrown;
 }
-.products {
+
+.navbar-dx {
+  display: flex;
+}
+
+.navbar-link {
   color: white;
   text-decoration: none;
   font-size: 1.5rem;
@@ -46,6 +60,7 @@
   gap: 0.5rem;
   width: fit-content;
 }
-.products:hover {
+.navbar-link:hover {
   background-color: bisque;
+  color: rosybrown;
 }
